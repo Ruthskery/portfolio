@@ -8,10 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        primary: ["Montserrat"],
+      },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+      }, 
     },
   },
   plugins: [],
